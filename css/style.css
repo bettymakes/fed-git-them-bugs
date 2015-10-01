@@ -54,3 +54,17 @@ em {
 }
 
 
+/* Apply these style rules ONLY IF the browser is AT MINIMUM 550px */
+@media (min-width: 550px) {
+  main {
+    width: 550px;
+    margin: auto;
+  }
+}
+
+/* When the browser's width is 700px or greater ... */
+@media (min-width: 700px) {
+  h1 {
+    font-size: 52px;
+  }
+}
