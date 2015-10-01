@@ -1,0 +1,56 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer {
+  text-align: right;
+}
+
+li {
+  border-bottom: 5px solid #ccc;
+  margin-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: red;
+}
+
+header {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 0;
+}
+
+em {
+  font-style: normal;
+  text-transform: uppercase;
+  color: tomato;
+}
+
+.banner {
+  box-sizing: border-box;
+  border: 5px dashed tomato;
+}
+
+
