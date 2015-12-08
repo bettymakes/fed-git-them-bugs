@@ -8,7 +8,7 @@ Practice finding bugs, making the necessary revisions, and using Git to track th
 3. The Lorax image is not loading.
   * Hint: Verify that the path to the Lorax image is correct.
 4. The title text should read "I Love Netflix" (not "I Love Nerdflix")
-  * Hint: Verify the content between the <h1> tags
+  * Hint: Verify the content between the `<h1>` tags
 5. The images should span 100% wide across its parent container
   * Hint: Verify the image's width is 100%
 6. The footer should be grey
