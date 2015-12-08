@@ -2,7 +2,7 @@
 Practice finding bugs, making the necessary revisions, and using Git to track those changes
 
 1. All the styles from our stylesheet is missing. 
-⋅⋅* Hint: Verify that the stylesheet is referenced properly. 
+..* Hint: Verify that the stylesheet is referenced properly. 
 2. The text "My favourite shows on Netflix" should be red
 ⋅⋅* Hint: Verify the h2 has the color of red assigned to it. 
 3. The Lorax image is not loading.
