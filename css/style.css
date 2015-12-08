@@ -1,42 +1,13 @@
-body {
+html, body {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
-img {
-  width: 100%;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
 main {
   margin-bottom: 100px;
-}
-
-footer {
-  text-align: right;
-  position: fixed;
-  background-color: #333333;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: white;
-  padding: 0 25px;
-}
-
-li {
-  border-bottom: 5px solid #ccc;
-  margin-bottom: 50px;
-}
-
-h2 {
-  text-align: center;
-  margin-bottom: 50px;
-  color: red;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
@@ -51,6 +22,28 @@ h1 {
   color: white;
   text-shadow: 2px 2px black;
   margin: 0;
+  font-size: 52px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: red;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  border-bottom: 5px solid #ccc;
+  margin-bottom: 50px;
 }
 
 em {
@@ -59,26 +52,13 @@ em {
   color: tomato;
 }
 
-.banner {
-  box-sizing: border-box;
-  border: 5px dashed tomato;
+footer {
+  text-align: right;
+  position: fixed;
+  background-color: #333333;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  padding: 0 25px;
 }
-
-
-
-/* Apply these style rules ONLY IF the browser is AT MINIMUM 550px */
-@media (min-width: 550px) {
-  main {
-    width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* When the browser's width is 700px or greater ... */
-@media (min-width: 700px) {
-  h1 {
-    font-size: 52px;
-  }
-}
-
