@@ -14,6 +14,18 @@ header {
   position: relative;
 }
 
+img {
+  width: 100%;
+}
+
+.footer-color {
+  background-color: #333333;
+}
+.string-color {
+  color: red;
+}
+
+
 h1 {
   position: absolute;
   top: 50%;
